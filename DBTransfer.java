@@ -31,7 +31,7 @@ public class DBTransfer {
 
     private static final int PORT = 27017;
     private static final String HOST = "host_address";
-    private static final String COLLECTION = "collection_field1"; //In that case in both DB is same
+    private static final String COLLECTION = "collection_name"; //In that case in both DB is same
     private final MongoClient client = new MongoClient(HOST, PORT);
 
 
